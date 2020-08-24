@@ -1,0 +1,31 @@
+.ProductList {
+    width: 52%;
+    border: 1px solid #c5c3c3;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.ProductList ul {
+    list-style-type: none;
+    padding: 0px 10px;
+    margin-top: 0px;
+}
+
+.ProductList ul li {
+    border-bottom: 1px solid #c5c3c3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProductList ul li p{
+    display: inline-block;
+    color: #58595b;
+    text-align: left;
+}
+@media screen and (max-width: 600px) {
+    .ProductList {
+        width: 100%;
+    }
+}
